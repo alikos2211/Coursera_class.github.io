@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title h2 {
+    text-align: center;
+}
+
+.menus {
+
+    padding: 15px;
+    
+}
+
+.title-block-1 {
+    border: 1px black solid;
+    background-color: blanchedalmond;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+.title-block-1 p {
+    font-size: 15px;
+
+}
+
+.title-block-2 {
+    border: 1px black solid;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+.title-block-2 p {
+    font-size: 15px;
+}
+
+.title-block-3 {
+    border: 1px black solid;
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+.title-block-3 p {
+    font-size: 15px;
+}
+
+.chiken {
+    float: left;
+    padding: 10px;
+}
+
+.chikenInner {
+    border: 1px solid black;
+    background-color: rgb(180, 180, 180);
+    position: relative;
+    padding-top: 40px;
+}
+
+.beef {
+    float: left;
+    padding: 10px;
+}
+
+.beefInner {
+    border: 1px solid black;
+    background-color: rgb(180, 180, 180);
+    position: relative;
+    padding-top: 40px;
+}
+
+.sushi {
+    float: left;
+    padding: 10px;
+}
+
+.sushiInner {
+    border: 1px solid black;
+    background-color: rgb(180, 180, 180);
+    position: relative;
+    padding-top: 40px;
+}
+
+.card {
+    width: 33%;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card{
+        width: 50%;
+    }
+    .card-lg{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card{
+        width: 100%;
+    }
+}
